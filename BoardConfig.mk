@@ -20,7 +20,7 @@ BOARD_MODEM_TYPE := ss333
 BOARD_PROVIDES_LIBRIL := true
 
 # Recovery
-TARGET_OTA_ASSERT_DEVICE := gts210lte,gts210ltexx
+TARGET_OTA_ASSERT_DEVICE := gts210lte,gts210ltejv,gts210ltexx
 
 # Inherit common board flags
 include device/samsung/gts2-common/BoardConfigCommon.mk
